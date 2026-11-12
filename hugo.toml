@@ -27,10 +27,19 @@ enableRobotsTXT = true
   discord = "https://discord.gg/9FmWyw8UG7"
 
 [[params.channels]]
-  name = "#test-jkg"
-  purpose = "Testkanal: skriv test så svarar repeatrar med auto-svar"
+  name = "#jonkoping"
+  purpose = "Länets chattkanal"
+
+[[params.channels]]
+  name = "#test-se-jkp"
+  purpose = "Testkanal: skriv test så svarar repeatrar med auto-svar. Testa här, inte i chattkanalerna."
 
 [[menus.main]]
   name = "Guider"
   pageRef = "/guider"
   weight = 10
+
+[[menus.main]]
+  name = "Om sidan"
+  pageRef = "/om"
+  weight = 20
