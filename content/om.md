@@ -1,10 +1,10 @@
 ---
 title: "Om sidan"
-description: "Vem som sköter meshcore-jkp.se, varför sidan finns och hur du hör av dig eller bidrar."
+description: "Om meshcore-jkp.se, sidan för MeshCore i Jönköping: vem som sköter den, varför den finns och hur du bidrar."
 ---
 
-meshcore-jkp.se visar hur MeshCore-nätet i Jönköpings län ser ut just nu och hjälper dig att
-komma igång. Kartan på startsidan bygger på vad observatörerna i länet hör, via en egen
+meshcore-jkp.se är sidan för **MeshCore i Jönköping**: den visar hur MeshCore-nätet i Jönköpings län
+ser ut just nu, och våra [MeshCore-guider](/guider/) hjälper dig att komma igång. Kartan på startsidan bygger på vad observatörerna i länet hör, via en egen
 [Beacon-server](https://beacon.meshcore-jkp.se/swagger/index.html).
 
 ## Varför en egen sida
