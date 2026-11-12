@@ -16,6 +16,11 @@ enableRobotsTXT = true
   center = [57.78, 14.16]
   zoom = 9
 
+[params.naming]
+  pattern = "SE-JKP-Plats-ABCD"
+  example = "SE-JKP-Braneryd-FD70"
+  explain = "SE för Sverige, JKP för länet (som regionen se-jkp), platsen, och de fyra första tecknen i nodens nyckel så att namnet blir unikt."
+
 [params.beacon]
   url = "https://beacon.meshcore-jkp.se"
 
