@@ -60,6 +60,11 @@ enableRobotsTXT = true
   weight = 10
 
 [[menus.main]]
+  name = "Verktyg"
+  pageRef = "/verktyg"
+  weight = 15
+
+[[menus.main]]
   name = "Om sidan"
   pageRef = "/om"
   weight = 20
