@@ -1,0 +1,36 @@
+baseURL = "https://meshcore-jkp.se/"
+title = "MeshCore Jönköping"
+locale = "sv"
+defaultContentLanguage = "sv"
+disableKinds = ["taxonomy", "term"]
+enableRobotsTXT = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/sweden-mesh/meshcore-regional-template"
+
+[params.region]
+  name = "Jönköpings län"
+  iatas = ["JKG"]
+  scope = "se-jkp"
+  center = [57.78, 14.16]
+  zoom = 9
+
+[params.beacon]
+  url = "https://beacon.meshcore-jkp.se"
+
+[params.community]
+  name = "JKPG-Mesh"
+  url = "https://jkpg-mesh.se/"
+
+[params.chat]
+  discord = "https://discord.gg/9FmWyw8UG7"
+
+[[params.channels]]
+  name = "#test-jkg"
+  purpose = "Testkanal: skriv test så svarar repeatrar med auto-svar"
+
+[[menus.main]]
+  name = "Guider"
+  pageRef = "/guider"
+  weight = 10

@@ -1,6 +1,24 @@
 # meshcore-jkp.se
 
-Regional website for MeshCore in Jönköpings län (region `se-jkp`).
+The regional MeshCore website for Jönköpings län (region `se-jkp`, IATA `JKG`).
 
-Domains: `meshcore-jkp.se` and `meshcore-jönköping.se` (`xn--meshcore-jnkping-vwbc.se`).
-Built with Hugo; the shared regional template is a Hugo module. Hosting target: Cloudflare Pages.
+Built with Hugo from the shared template
+[sweden-mesh/meshcore-regional-template](https://github.com/sweden-mesh/meshcore-regional-template),
+imported as a Hugo module. This repository holds only what is local: `hugo.toml` (region,
+Beacon URL, community links, channels) and pages under `content/`. Any template file can be
+overridden by putting a file at the same path here.
+
+Live data comes from our Beacon backend, https://beacon.meshcore-jkp.se.
+
+Domains: `meshcore-jkp.se` and `meshcore-jönköping.se` (`xn--meshcore-jnkping-vwbc.se`), which
+redirects. Hosting: Cloudflare Pages.
+
+## Build
+
+Hugo ≥ 0.146 and Go:
+
+```sh
+hugo server               # local preview
+hugo --gc --minify        # the site in public/
+hugo mod get -u           # update the template
+```
