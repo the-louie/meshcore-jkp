@@ -11,6 +11,7 @@ enableRobotsTXT = true
 
 [params.region]
   name = "Jönköpings län"
+  short = "Jönköping"
   iatas = ["JKG"]
   scope = "se-jkp"
   center = [57.78, 14.16]
