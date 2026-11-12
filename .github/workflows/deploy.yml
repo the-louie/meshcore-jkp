@@ -9,6 +9,12 @@ on:
     branches: [main, dev]
   pull_request:
   workflow_dispatch:
+  # Rebuild production every 6 hours so the build-time Beacon snapshot (the
+  # map's fallback) stays fresh: 120 deploys a month. Direct Upload deploys do
+  # not appear to count toward Pages' 500 builds/month (Git builds do); even if
+  # they did, this stays well under it. Scheduled runs use the default branch.
+  schedule:
+    - cron: "17 */6 * * *"
 
 concurrency:
   group: deploy-${{ github.ref }}

@@ -33,5 +33,6 @@ hugo mod get -u           # update the template
 | `dev` | https://staging.meshcore-jkp.se (`dev.meshcore-jkp.pages.dev`) | no (`HUGO_PARAMS_NOINDEX`) |
 | `main` | https://meshcore-jkp.se | yes |
 | pull requests | built, not deployed | — |
+| every 6 h (cron) | production rebuild, for a fresh Beacon snapshot | — |
 
 Secrets: `CLOUDFLARE_API_TOKEN` (Pages:Edit only) and `CLOUDFLARE_ACCOUNT_ID`.
