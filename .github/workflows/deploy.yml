@@ -1,0 +1,46 @@
+# Build the site with Hugo and deploy it to Cloudflare Pages (project meshcore-jkp).
+#   dev  → staging: https://staging.meshcore-jkp.se (dev.meshcore-jkp.pages.dev), not indexed
+#   main → production: https://meshcore-jkp.se
+#   pull requests → build only, nothing deployed
+# Secrets: CLOUDFLARE_API_TOKEN (Pages:Edit only) and CLOUDFLARE_ACCOUNT_ID.
+name: deploy
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.169.0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+      - name: Install Hugo
+        run: |
+          curl -sSLo hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          tar -xzf hugo.tar.gz hugo && sudo install hugo /usr/local/bin/hugo
+      - name: Build (staging)
+        if: github.ref != 'refs/heads/main'
+        env:
+          HUGO_PARAMS_NOINDEX: "true"
+        run: hugo --gc --minify --baseURL https://staging.meshcore-jkp.se/
+      - name: Build (production)
+        if: github.ref == 'refs/heads/main'
+        run: hugo --gc --minify
+      - name: Deploy to Cloudflare Pages
+        if: github.event_name != 'pull_request'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=meshcore-jkp --branch=${{ github.ref_name }} --commit-dirty=true

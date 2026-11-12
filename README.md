@@ -22,3 +22,16 @@ hugo server               # local preview
 hugo --gc --minify        # the site in public/
 hugo mod get -u           # update the template
 ```
+
+## Deploy
+
+`.github/workflows/deploy.yml` builds with Hugo and uploads to Cloudflare Pages (project
+`meshcore-jkp`, Direct Upload):
+
+| Branch | Where | Indexed |
+|---|---|---|
+| `dev` | https://staging.meshcore-jkp.se (`dev.meshcore-jkp.pages.dev`) | no (`HUGO_PARAMS_NOINDEX`) |
+| `main` | https://meshcore-jkp.se | yes |
+| pull requests | built, not deployed | — |
+
+Secrets: `CLOUDFLARE_API_TOKEN` (Pages:Edit only) and `CLOUDFLARE_ACCOUNT_ID`.
