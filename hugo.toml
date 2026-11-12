@@ -21,6 +21,11 @@ enableRobotsTXT = true
   example = "SE-JKP-Braneryd-FD70"
   explain = "SE för Sverige, JKP för länet (som regionen se-jkp), platsen, och de fyra första tecknen i nodens nyckel så att namnet blir unikt."
 
+[params.analytics]
+  plausible = true
+  script = "/p/s.js"
+  api = "/p/event"
+
 [params.beacon]
   url = "https://beacon.meshcore-jkp.se"
 
