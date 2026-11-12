@@ -10,10 +10,9 @@ enableRobotsTXT = true
     path = "github.com/sweden-mesh/meshcore-regional-template"
 
 [params.region]
-  name = "Jönköpings län"
+  scb = "06"                 # the template takes the county name and region (se-jkp) from zombiefredrik/meshcore-se-regioner
   short = "Jönköping"
   iatas = ["JKG"]
-  scope = "se-jkp"
   center = [57.78, 14.16]
   zoom = 9
 
@@ -44,13 +43,11 @@ enableRobotsTXT = true
 
 [[params.channels]]
   name = "#jonkoping"
-  scope = "se-jkp"
   purpose = "Länets chattkanal"
   note = "Skicka med regionen se-jkp, så stannar trafiken i länet."
 
 [[params.channels]]
   name = "#test-se-jkp"
-  scope = "se-jkp"
   purpose = "Testkanal: skriv `test` så svarar repeatrar med auto-svar."
   note = "Testa här, inte i chattkanalerna."
 
