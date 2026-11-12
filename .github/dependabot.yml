@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # The regional template is a Hugo module pinned in go.mod.
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly
