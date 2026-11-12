@@ -33,8 +33,13 @@ enableRobotsTXT = true
   name = "JKPG-Mesh"
   url = "https://jkpg-mesh.se/"
 
-[params.chat]
-  discord = "https://discord.gg/9FmWyw8UG7"
+[[params.chats]]
+  name = "JKPG-Mesh Discord"
+  url = "https://discord.gg/9FmWyw8UG7"
+
+[[params.chats]]
+  name = "Sweden Mesh Discord (meshat.se)"
+  url = "https://discord.gg/gchSzHkPGG"
 
 [[params.channels]]
   name = "#jonkoping"
