@@ -16,4 +16,5 @@ Det som saknas är repeatrar på höga platser längs vägen dit. Har du tillgå
 ett tak, en mast eller en höjd med fri sikt, eller bara bor högt med fin utsikt, är det precis
 det som behövs. Vill du sätta upp en repeater, eller låta någon annan sätta en hos dig, hör av dig på
 [JKPG-Meshs Discord](https://discord.gg/9FmWyw8UG7). Hur du gör står i
-[Sätt upp en repeater](/guider/repeater/).
+[Sätt upp en repeater](/guider/repeater/), och vad det innebär att ha en hos sig i
+[Bli nodvärd](/bli-nodvard/).
