@@ -70,6 +70,14 @@ enableRobotsTXT = true
   weight = 15
 
 [[menus.main]]
+  name = "Felsökning"
+  pageRef = "/felsokning"
+  weight = 17
+[[menus.main]]
+  name = "Frågor"
+  pageRef = "/fragor"
+  weight = 18
+[[menus.main]]
   name = "Om sidan"
   pageRef = "/om"
   weight = 20
