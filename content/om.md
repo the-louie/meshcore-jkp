@@ -1,6 +1,7 @@
 ---
 title: "Om sidan"
 description: "Om meshcore-jkp.se, sidan för MeshCore i Jönköping: vem som sköter den, varför den finns och hur du bidrar."
+lead: false
 ---
 
 meshcore-jkp.se är sidan för **MeshCore i Jönköping**: den visar hur MeshCore-nätet i Jönköpings län
