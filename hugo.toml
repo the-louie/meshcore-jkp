@@ -34,7 +34,7 @@ enableRobotsTXT = true
   seeds = ["https://beacon.meshat.se"]
 
 [params.community]
-  name = "JKPG-Mesh"
+  name = "JKPG-Mesh webb"
   url = "https://jkpg-mesh.se/"
 
 [[params.chats]]
