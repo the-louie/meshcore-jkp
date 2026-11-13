@@ -29,6 +29,9 @@ enableRobotsTXT = true
 
 [params.beacon]
   url = "https://beacon.meshcore-jkp.se"
+  # Our Beacon started 2026-11-12 and knows only nodes that have advertised since; meshat's
+  # fills in the rest of the county until ours has heard them.
+  seeds = ["https://beacon.meshat.se"]
 
 [params.community]
   name = "JKPG-Mesh"
