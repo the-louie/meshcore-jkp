@@ -51,11 +51,12 @@ enableRobotsTXT = true
 
 [[params.channels]]
   name = "#jonkoping"
+  scope = "se-jkp"
   purpose = "Länets chattkanal"
-  note = "Skicka med regionen se-jkp, så stannar trafiken i länet."
 
 [[params.channels]]
   name = "#test-se-jkp"
+  scope = "se-jkp"
   purpose = "Testkanal: skriv `test` så svarar repeatrar med auto-svar."
   note = "Testa här, inte i chattkanalerna."
 
