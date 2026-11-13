@@ -42,8 +42,12 @@ enableRobotsTXT = true
   url = "https://discord.gg/9FmWyw8UG7"
 
 [[params.chats]]
-  name = "Sweden Mesh Discord (meshat.se)"
+  name = "Sweden Mesh Discord"
   url = "https://discord.gg/gchSzHkPGG"
+
+[[params.links]]
+  name = "meshat.se"
+  url = "https://meshat.se/"
 
 [[params.channels]]
   name = "#jonkoping"
