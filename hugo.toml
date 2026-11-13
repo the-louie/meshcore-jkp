@@ -19,6 +19,7 @@ enableRobotsTXT = true
 [params.naming]
   pattern = "SE-JKP-Plats-ABCD"
   example = "SE-JKP-Braneryd-FD70"
+  companion_example = "SE-JKP-Jeppe"
   explain = "SE för Sverige, JKP för länet (som regionen se-jkp), platsen, och de fyra första tecknen i nodens nyckel så att namnet blir unikt."
 
 [params.analytics]
