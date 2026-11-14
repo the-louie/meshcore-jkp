@@ -23,9 +23,8 @@ hos dig. Det gäller också **föreningar och andra ideella verksamheter**, och 
 en repeater på klubbstugan, i bygdegården, på kontorets tak eller i lagerlokalens fönster gör
 nätet bättre för alla runt omkring.
 
-Hör av dig på [JKPG-Meshs Discord](https://discord.gg/9FmWyw8UG7). Hur du gör står i
-[Sätt upp en repeater](/guider/repeater/), och vad det innebär att ha en hos sig i
-[Bli nodvärd](/bli-nodvard/).
+Hur du gör står i [Sätt upp en repeater](/guider/repeater/), och vad det innebär att ha en hos
+sig i [Bli nodvärd](/bli-nodvard/).
 
 ## Gemenskap
 
