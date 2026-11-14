@@ -4,7 +4,7 @@ description: "Om meshcore-jkp.se, sidan för MeshCore i Jönköping: vem som sk�
 lead: false
 ---
 
-meshcore-jkp.se är sidan för **MeshCore i Jönköping**: den visar hur MeshCore-nätet i Jönköpings län
+{{< domain >}} är sidan för **MeshCore i Jönköping**: den visar hur MeshCore-nätet i Jönköpings län
 ser ut just nu, och våra [MeshCore-guider](/guider/) hjälper dig att komma igång. Kartan på startsidan bygger på vad observatörerna i länet hör, via en egen
 [Beacon-server](https://beacon.meshcore-jkp.se/swagger/index.html).
 

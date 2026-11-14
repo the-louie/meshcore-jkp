@@ -17,10 +17,10 @@ enableRobotsTXT = true
   zoom = 9
 
 [params.naming]
-  pattern = "SE-JKP-Plats-ABCD"
-  example = "SE-JKP-Braneryd-FD70"
+  pattern = "SE-JKP-Plats"
+  example = "SE-JKP-Braneryd"
   companion_example = "🥵Kapten CRISP🥵"
-  explain = "SE för Sverige, JKP för länet (som regionen se-jkp), platsen, och de fyra första tecknen i nodens nyckel så att namnet blir unikt."
+  explain = "SE för Sverige, JKP för länet (som regionen se-jkp) och en välkänd plats som de flesta i trakten känner igen. Står flera repeatrar på samma plats lägger du till de fyra första tecknen i nodens publika nyckel (som -FD70), så att namnen inte krockar."
 
 [params.analytics]
   plausible = true
