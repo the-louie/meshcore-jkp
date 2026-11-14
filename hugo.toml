@@ -60,6 +60,11 @@ enableRobotsTXT = true
   purpose = "Testkanal: skriv `test` så svarar repeatrar med auto-svar."
   note = "Testa här, inte i chattkanalerna."
 
+[[params.channels]]
+  name = "#test-jkg"
+  purpose = "Äldre testkanal"
+  note = "Repeatrar med äldre firmware, och nyare utan region, svarar på `test` här. Använd `#test-se-jkp`."
+
 [[menus.main]]
   name = "Guider"
   pageRef = "/guider"
