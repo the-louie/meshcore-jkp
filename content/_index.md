@@ -24,7 +24,8 @@ en repeater på klubbstugan, i bygdegården, på kontorets tak eller i lagerloka
 nätet bättre för alla runt omkring.
 
 Hur du gör står i [Sätt upp en repeater](/guider/repeater/), och vad det innebär att ha en hos
-sig i [Bli nodvärd](/bli-nodvard/).
+sig i [Bli nodvärd](/bli-nodvard/). [Testa din plats](/wizard/nodvard/) visar vad som är bra
+med just din.
 
 ## Gemenskap
 
