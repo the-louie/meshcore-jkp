@@ -26,3 +26,15 @@ nätet bättre för alla runt omkring.
 Hör av dig på [JKPG-Meshs Discord](https://discord.gg/9FmWyw8UG7). Hur du gör står i
 [Sätt upp en repeater](/guider/repeater/), och vad det innebär att ha en hos sig i
 [Bli nodvärd](/bli-nodvard/).
+
+## Gemenskap
+
+De flesta som har satt upp repeatrar i länet finns på
+[JKPG-Meshs Discord](https://discord.gg/9FmWyw8UG7). Där frågar du om hjälp, berättar var du
+tänker sätta en repeater och får veta vad som händer i nätet. Nyheter och bakgrund finns på
+[jkpg-mesh.se](https://jkpg-mesh.se/), och frågor som gäller hela Sverige tas på
+[Sweden Mesh Discord](https://discord.gg/gchSzHkPGG).
+
+I appen skriver du i `#jonkoping` med regionen `se-jkp`, så stannar samtalet i länet. Vill du se
+om du når ut, skriv `test` i `#test-se-jkp`: repeatrar med auto-svar svarar med en kort rapport om
+vem som hörde dig och hur starkt.
