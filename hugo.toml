@@ -82,3 +82,6 @@ enableRobotsTXT = true
   name = "Om sidan"
   pageRef = "/om"
   weight = 20
+
+[params.contributors]
+  repos = ["sweden-mesh/meshcore-regional-template", "the-louie/meshcore-jkp"]

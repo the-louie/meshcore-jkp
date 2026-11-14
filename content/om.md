@@ -31,3 +31,10 @@ Sidan sköts av The Louie ([the-louie](https://github.com/the-louie) på GitHub)
 - **Ändra en text:** sidans innehåll är Markdown i
   [the-louie/meshcore-jkp](https://github.com/the-louie/meshcore-jkp); skicka en pull request.
 - **Allt annat:** JKPG-Mesh [Discord](https://discord.gg/9FmWyw8UG7).
+
+## Vem har bidragit
+
+Sidan och mallen den bygger på har skrivits av de här personerna. Listan hämtas från GitHub när
+sidan byggs; bottar och AI-verktyg räknas inte.
+
+{{< contributors >}}
