@@ -90,3 +90,22 @@ enableRobotsTXT = true
 
 [params.contributors]
   repos = ["sweden-mesh/meshcore-regional-template", "the-louie/meshcore-jkp"]
+
+# Photos for the template's photo spots ({{< region-photo "key" >}}, backlog B-219). Sources in
+# assets/photos/, metadata stripped; pic_1 cropped to the mast so the site is hard to place
+# (operator 2026-11-14). All by the operator.
+[params.photos.home]
+  src = "photos/repeater-mast.jpg"
+  alt = "En repeater i en vit låda med en svart antenn, på en mast bredvid en väderstation, med kvällshimmel och Vättern i bakgrunden."
+  caption = "En repeater på en mast vid Vättern."
+  credit = "the louie"
+[params.photos.host]
+  src = "photos/utsikt-vattern.jpg"
+  alt = "Utsikt från en hög plats över barrskog mot Vättern."
+  caption = "Högt och fritt: utsikten över skogen mot Vättern."
+  credit = "the louie"
+[params.photos.mount]
+  src = "photos/antennfaste.jpg"
+  alt = "En antenn för 868 MHz på ett grått 3D-utskrivet rörfäste, med kabeln dragen inuti röret."
+  caption = "Ett väderskyddat antennfäste."
+  credit = "the louie"

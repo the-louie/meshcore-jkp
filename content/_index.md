@@ -27,6 +27,8 @@ Hur du gör står i [Sätt upp en repeater](/guider/repeater/), och vad det inne
 sig i [Bli nodvärd](/bli-nodvard/). [Testa din plats](/wizard/nodvard/) visar vad som är bra
 med just din.
 
+{{< region-photo "home" >}}
+
 ## Gemenskap
 
 De flesta som har satt upp repeatrar i länet finns på
