@@ -35,6 +35,6 @@ Sidan sköts av The Louie ([the-louie](https://github.com/the-louie) på GitHub)
 ## Vem har bidragit
 
 Sidan och mallen den bygger på har skrivits av de här personerna. Listan hämtas från GitHub när
-sidan byggs; bottar och AI-verktyg räknas inte.
+sidan byggs.
 
 {{< contributors >}}
