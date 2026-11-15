@@ -20,6 +20,9 @@ enableRobotsTXT = true
   pattern = "SE-JKP-Plats"
   example = "SE-JKP-Braneryd"
   companion_example = "🥵Kapten CRISP🥵"
+  place = "Taberg"
+  place_accented = "Bråneryd"
+  place_ascii = "Braneryd"
   explain = "SE för Sverige, JKP för länet (som regionen `se-jkp`) och en välkänd plats som de flesta i trakten känner igen. Står flera repeatrar på samma plats lägger du till de fyra första tecknen i nodens publika nyckel (som -FD70), så att namnen inte krockar."
 
 [params.analytics]
