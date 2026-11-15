@@ -1,0 +1,27 @@
+# Cloudflare Pages response headers (from a modern-web-guidance security audit, 2026-11-15).
+#
+# Enforced now: no plugins, no <base> hijack, no framing, forms post only here.
+# Script policy is REPORT-ONLY first: watch the browser console on /, /sok/, the
+# wizards and /wizard/solcell/ for violations, then move script-src into the
+# enforced header. The three hashes are the inline scripts of template v0.28.0 as
+# built with `hugo --minify` (theme, motion, Plausible init). Any change to them in
+# the template (see its CHANGELOG) needs new hashes here.
+# 'wasm-unsafe-eval' is for Pagefind; blob: workers for MapLibre.
+# HSTS starts short (5 min); raise step by step to 31536000 once all is well.
+/*
+  Content-Security-Policy: object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'
+  Content-Security-Policy-Report-Only: script-src 'self' 'sha256-JY+HQEUVCvAfSDIkt62Af7zLBs3AvpUTZSQsgf1sC5o=' 'sha256-TqMKj+v8C5EDDfQu3sqNM75+V004RIrc0fWJ7sfhpqw=' 'sha256-XY9QgB5Vx97My2e6MxeTjxK9VpVJljda9Vs7yW06e38=' 'wasm-unsafe-eval' 'report-sample'; worker-src 'self' blob:
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), usb=(), bluetooth=(), payment=(), serial=(self)
+  Strict-Transport-Security: max-age=300
+
+# Fingerprinted assets never change under the same name: cache them for a year.
+# /lib/ holds versioned folders (maplibre-gl/<version>/, popover-polyfill/<version>/).
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+/beacon/*
+  Cache-Control: public, max-age=31536000, immutable
+/lib/*
+  Cache-Control: public, max-age=31536000, immutable
