@@ -51,6 +51,18 @@ enableRobotsTXT = true
   lon = 14.3239
   note = "Hjälp oss att dra nytta av Vättern för att kunna länka ihop Västergötland, Östergötland, Närke och Jönköping."
 
+[[params.wanted]]
+  name = "Knaggebo"
+  lat = 57.86837
+  lon = 13.75817
+  note = "Den ultimata länken ut från Mullsjö är via Knaggebobacken, känner du någon som skulle kunna ge oss OK att sätta en repeater där skulle vi vara mycket tacksamma!"
+
+[[params.wanted]]
+  name = "Tabergs topp"
+  lat = 57.67906
+  lon = 14.08131
+  note = "Tabergs topp har oslagbar utsikt i tre vädersträck, med en repeater där skulle man täcka in stora delar av norra Småland samtidigt om man länkar ihop Tabergsdalen med resten av Jönköping."
+
 [params.analytics]
   plausible = true
   script = "/p/s.js"
