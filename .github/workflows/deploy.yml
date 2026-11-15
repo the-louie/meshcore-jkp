@@ -3,6 +3,11 @@
 #   main → production: https://meshcore-jkp.se
 #   pull requests → build only, nothing deployed
 # Secrets: CLOUDFLARE_API_TOKEN (Pages:Edit only) and CLOUDFLARE_ACCOUNT_ID.
+# MESHMAPPER_API_KEY: the region's MeshMapper key, given to Hugo as HUGO_MESHMAPPER_KEY in the
+# staging and production builds (never in pull requests); without it the map has no coverage
+# layer. Call budget: the key allows 100 coverage calls per UTC day and every build makes one
+# (4 scheduled + each push to main or dev, typically under 30 a day). A local `hugo` with the
+# variable set counts too; within the same 6-hour slot it reuses its cached download.
 name: deploy
 on:
   push:
@@ -42,9 +47,12 @@ jobs:
         if: github.ref != 'refs/heads/main'
         env:
           HUGO_PARAMS_NOINDEX: "true"
+          HUGO_MESHMAPPER_KEY: ${{ github.event_name != 'pull_request' && secrets.MESHMAPPER_API_KEY || '' }}
         run: hugo --gc --minify --baseURL https://staging.meshcore-jkp.se/
       - name: Build (production)
         if: github.ref == 'refs/heads/main'
+        env:
+          HUGO_MESHMAPPER_KEY: ${{ github.event_name != 'pull_request' && secrets.MESHMAPPER_API_KEY || '' }}
         run: hugo --gc --minify
       - name: Search index
         run: pagefind --site public
