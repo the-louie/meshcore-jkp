@@ -33,6 +33,10 @@ enableRobotsTXT = true
   # fills in the rest of the county until ours has heard them.
   seeds = ["https://beacon.meshat.se"]
 
+# MeshMapper: the county's coverage map (jkpg.meshmapper.net is gone, 410).
+[params.meshmapper]
+  url = "https://jkg.meshmapper.net/"
+
 [params.community]
   name = "JKPG-Mesh webb"
   url = "https://jkpg-mesh.se/"
