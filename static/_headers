@@ -10,7 +10,7 @@
 # HSTS starts short (5 min); raise step by step to 31536000 once all is well.
 /*
   Content-Security-Policy: object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'
-  Content-Security-Policy-Report-Only: script-src 'self' 'sha256-JY+HQEUVCvAfSDIkt62Af7zLBs3AvpUTZSQsgf1sC5o=' 'sha256-TqMKj+v8C5EDDfQu3sqNM75+V004RIrc0fWJ7sfhpqw=' 'sha256-XY9QgB5Vx97My2e6MxeTjxK9VpVJljda9Vs7yW06e38=' 'wasm-unsafe-eval' 'report-sample'; worker-src 'self' blob:
+  Content-Security-Policy-Report-Only: script-src 'self' 'sha256-JY+HQEUVCvAfSDIkt62Af7zLBs3AvpUTZSQsgf1sC5o=' 'sha256-baA9qojJ3UDpPMd2+kFcIgQNuTH5DT4LpY+8TMIdh40=' 'sha256-XY9QgB5Vx97My2e6MxeTjxK9VpVJljda9Vs7yW06e38=' 'wasm-unsafe-eval' 'report-sample'; worker-src 'self' blob:
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=(), usb=(), bluetooth=(), payment=(), serial=(self)
   Strict-Transport-Security: max-age=300
