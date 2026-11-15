@@ -25,6 +25,31 @@ enableRobotsTXT = true
   place_ascii = "Braneryd"
   explain = "SE för Sverige, JKP för länet (som regionen `se-jkp`) och en välkänd plats som de flesta i trakten känner igen. Står flera repeatrar på samma plats lägger du till de fyra första tecknen i nodens publika nyckel (som -FD70), så att namnen inte krockar."
 
+# Places where the region wants a new repeater (operator 2026-11-15): listed on Bli nodvärd, circles on the map.
+[[params.wanted]]
+  name = "Sjogarp"
+  lat = 57.90209
+  lon = 14.10796
+  note = "Vi har ingen bra koppling till Bankeryd nu, Sjogarp skulle kunna bli en länk mellan Jönköping och Bankeryd"
+
+[[params.wanted]]
+  name = "Sibbabo"
+  lat = 57.87395
+  lon = 13.93088
+  note = "För att nå till Mullsjö behöver vi minst ett till hopp, Sibbabo är platsen närmast Mullsjö där man fortfarande har möjlighet att få in Jönköping."
+
+[[params.wanted]]
+  name = "Gränna"
+  lat = 58.02025
+  lon = 14.46263
+  note = "Under gynnsamma förhållanden kan vi nå Hjo och Ödeshög, men för att få en stabil länk behöver vi minst en repeater på vägen."
+
+[[params.wanted]]
+  name = "Visingsö"
+  lat = 58.03338
+  lon = 14.3239
+  note = "Hjälp oss att dra nytta av Vättern för att kunna länka ihop Västergötland, Östergötland, Närke och Jönköping."
+
 [params.analytics]
   plausible = true
   script = "/p/s.js"
