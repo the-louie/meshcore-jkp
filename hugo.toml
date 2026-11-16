@@ -79,6 +79,7 @@ enableRobotsTXT = true
 [params.meshmapper]
   url = "https://jkg.meshmapper.net/"
   coverage = true
+  sites = true               # antenna, height and power source in the node popups (the same key)
 
 [params.community]
   name = "JKPG-Mesh webb"
