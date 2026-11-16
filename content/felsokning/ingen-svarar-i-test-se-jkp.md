@@ -1,6 +1,6 @@
 ---
 title: "Ingen svarar på test i #test-se-jkp"
-description: "Du skriver test i länets testkanal men får inga svar."
+description: "Inga svar på test i #test-se-jkp? Oftast har du inte väntat två minuter, kanalnamnet är fel eller ingen repeater med auto-svar når dig. Så rättar du det."
 category: lokalt
 weight: 10
 ---

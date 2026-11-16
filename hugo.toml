@@ -3,7 +3,7 @@ title = "MeshCore Jönköping"
 locale = "sv"
 defaultContentLanguage = "sv"
 timeout = "40s"   # caps Hugo's retries of a refused MeshMapper call (429) at 9 calls (B-283)
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy", "term", "rss"]   # no RSS feeds: nothing links them (template SEO-T22)
 enableRobotsTXT = true
 
 [module]
