@@ -43,10 +43,10 @@ inte i chattkanalen: varje test kostar sändningstid för alla inom räckhåll. 
 ## Steg för steg
 
 1. **Skaffa en radio.** Nästan vilket LoRa-kort som helst för 868 MHz fungerar som din egen radio,
-   en *companion*. Vad som spelar roll när du väljer står i
+   en *companion*. Modeller, priser och butiker står i
    [Skaffa hårdvara](/guider/skaffa-hardvara/).
-2. **Flasha companion-firmware.** Det görs från webbläsaren, se
-   [Flasha firmware](/guider/flasha-firmware/).
+2. **Flasha companion-firmware.** Det görs från webbläsaren, med MeshCore-projektets webbflasher:
+   se [Flasha firmware](/guider/flasha-firmware/#companion).
 3. **Ställ in radion i appen.** [Wizarden för companion](/wizard/companion/) visar länets värden i
    den ordning appen frågar efter dem, och [Kom igång med en companion](/guider/companion/)
    förklarar varje steg.
@@ -55,7 +55,9 @@ inte i chattkanalen: varje test kostar sändningstid för alla inom räckhåll. 
 6. **Skriv `test` i `#test-se-jkp`.** Repeatrar med auto-svar svarar med en kort rapport om vem som
    hörde dig och hur starkt. Svaren kommer utspridda under ungefär två minuter, så vänta innan du
    skriver igen. Kommer inget svar, se
-   [Ingen svarar på test i #test-se-jkp](/felsokning/ingen-svarar-i-test-se-jkp/).
+   [Ingen svarar på test i #test-se-jkp](/felsokning/ingen-svarar-i-test-se-jkp/). Vad svaren
+   betyder står i [Första meddelandet](/guider/forsta-meddelandet/). Den allmänna `#test` går också bra
+   för ett test, men där svarar inte auto-svaret.
 7. **Säg hej** i `#jonkoping`, eller på JKPG-Meshs Discord (länk längst ner).
 
 Hör du bara en repeater är det oftast helt normalt: den för vidare dina meddelanden till resten av
