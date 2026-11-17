@@ -36,5 +36,6 @@ tänker sätta en repeater och får veta vad som händer i nätet. Nyheter och b
 [Sweden Mesh Discord](https://discord.gg/gchSzHkPGG).
 
 I appen skriver du i `#jonkoping` med regionen `se-jkp`, så stannar samtalet i länet. Vill du se
-om du når ut, skriv `test` i `#test-se-jkp`: repeatrar med auto-svar svarar med en kort rapport om
-vem som hörde dig och hur starkt.
+om du når ut, skriv `test` i `#test-se-jkp`: länets repeatrar med [auto-svar]({{< param "firmware.picker" >}}#f=ar&install=update)
+svarar med en kort rapport om vem som hörde dig och hur starkt. Når ingen av dem dig, prova den
+vanliga `#test`.

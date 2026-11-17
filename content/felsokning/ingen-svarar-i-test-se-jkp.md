@@ -23,6 +23,7 @@ två minuter så att svaren inte krockar.
 2. Kontrollera kanalens namn i appen, tecken för tecken.
 3. Prova också `#test-jkg`. Svarar någon där har repeatrarna nära dig äldre firmware.
 4. Flytta dig högre upp, eller närmare en repeater på [kartan](/).
+5. Når ingen repeater med auto-svar dig, testa i den vanliga `#test` i stället.
 
 ## Så vet du att det fungerar
 

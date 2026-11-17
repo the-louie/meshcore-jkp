@@ -36,8 +36,9 @@ det fungerar står i [Regioner](/guider/regioner/).
 
 {{< channels >}}
 
-Hashtag-kanaler lägger du till i appen med namnet, inklusive `#`. Testa bara i `#test-se-jkp`,
-inte i chattkanalen: varje test kostar sändningstid för alla inom räckhåll. Mer om kanaler i
+Hashtag-kanaler lägger du till i appen med namnet, inklusive `#`. Länet har repeatrar med
+[auto-svar]({{< param "firmware.picker" >}}#f=ar&install=update), så testa i `#test-se-jkp`, eller i den vanliga `#test` om
+ingen av dem når dig. Aldrig i chattkanalen: varje test kostar sändningstid för alla inom räckhåll. Mer om kanaler i
 [Kanaler i MeshCore](/guider/kanaler/).
 
 ## Steg för steg
@@ -56,8 +57,8 @@ inte i chattkanalen: varje test kostar sändningstid för alla inom räckhåll. 
    hörde dig och hur starkt. Svaren kommer utspridda under ungefär två minuter, så vänta innan du
    skriver igen. Kommer inget svar, se
    [Ingen svarar på test i #test-se-jkp](/felsokning/ingen-svarar-i-test-se-jkp/). Vad svaren
-   betyder står i [Första meddelandet](/guider/forsta-meddelandet/). Den allmänna `#test` går också bra
-   för ett test, men där svarar inte auto-svaret.
+   betyder står i [Första meddelandet](/guider/forsta-meddelandet/). Når ingen repeater med auto-svar
+   dig, testa i den vanliga `#test` i stället.
 7. **Säg hej** i `#jonkoping`, eller på JKPG-Meshs Discord (länk längst ner).
 
 Hör du bara en repeater är det oftast helt normalt: den för vidare dina meddelanden till resten av
