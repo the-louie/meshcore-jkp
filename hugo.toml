@@ -81,6 +81,9 @@ enableRobotsTXT = true
   coverage = true
   sites = true               # antenna, height and power source in the node popups (the same key)
 
+[params.regionSwitch]          # the county button in the header (template B-312)
+  on = true
+
 [params.community]
   name = "JKPG-Mesh webb"
   url = "https://jkpg-mesh.se/"
