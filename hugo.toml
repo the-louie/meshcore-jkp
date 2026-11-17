@@ -106,7 +106,7 @@ enableRobotsTXT = true
   name = "#test-se-jkp"
   scope = "se-jkp"
   purpose = "Testkanal: skriv `test` så svarar repeatrar med auto-svar."
-  note = "Når ingen av dem dig, testa i den vanliga `#test`. Aldrig i chattkanalerna."
+  note = "Når ingen av dem dig, testa i den vanliga `#test`. Använd helst inte de vanliga chattkanalerna (Public, `#jonkoping`) för testmeddelanden."
   autoreply = true
 
 [[params.channels]]

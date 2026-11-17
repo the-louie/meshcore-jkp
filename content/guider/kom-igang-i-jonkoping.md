@@ -38,7 +38,7 @@ det fungerar står i [Regioner](/guider/regioner/).
 
 Hashtag-kanaler lägger du till i appen med namnet, inklusive `#`. Länet har repeatrar med
 [auto-svar]({{< param "firmware.picker" >}}#f=ar&install=update), så testa i `#test-se-jkp`, eller i den vanliga `#test` om
-ingen av dem når dig. Aldrig i chattkanalen: varje test kostar sändningstid för alla inom räckhåll. Mer om kanaler i
+ingen av dem når dig. Använd helst inte de vanliga chattkanalerna (Public, `#jonkoping`) för testmeddelanden: varje test kostar sändningstid för alla inom räckhåll. Mer om kanaler i
 [Kanaler i MeshCore](/guider/kanaler/).
 
 ## Steg för steg
